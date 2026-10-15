@@ -15,7 +15,7 @@ public class Booking {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private Long id; //bookingid
 
     // 🔥 NEW: room reference
     @Column(nullable = false)
